@@ -1,0 +1,15 @@
+.App {
+ 
+  color: aliceblue;
+ margin:10px 40% 10px 40%;
+  width: 317px;
+  height: 780px;
+  background-color: rgb(46, 39, 54);
+  border-radius: 10px;
+}
+.profile-img{
+ 
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+

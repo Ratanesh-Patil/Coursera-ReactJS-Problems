@@ -1,0 +1,18 @@
+.footer{
+    width: 317px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(31, 30, 39);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+.footer > a {
+  font-size: 25px;
+  color: rgb(113, 113, 113);
+  padding: 12px;
+ 
+  
+}
