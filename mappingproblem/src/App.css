@@ -1,0 +1,80 @@
+body{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+}
+.App{
+  width: 550px;
+  height: 704px;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+  background-color: rgb(251, 209, 209);
+
+}
+.nav{
+  width: 550px;
+  height: 55px;
+  background-color: rgb(208, 58, 58);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+.navimg{
+ 
+  width: 20px;
+  color: black;
+  margin: 10px;
+
+}
+.nav > span {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.outer-main{
+  width: 470px;
+  height: 168px;
+  display: flex;
+  /* border: 2px solid; */
+  margin: 20px;
+
+}
+.main-right{
+  width: 326px;
+  height: 146px;
+  margin: 10px;
+  align-items: center;
+  /* border: 2px solid; */
+}
+.main-location{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.img-loc{
+  margin-left: 8px;
+  width: 12px;
+  color: rgb(230, 11, 11);
+}
+.main-location h5{
+  margin: 5px ;
+  font-size: 12px;
+}
+.a-link {
+  font-size: 12px;
+  margin: 4px;
+}
+.main-right h1{
+  font-size: 24px;
+  margin: 0;
+  padding-left: 10px;
+}
+.main-h6 {
+  margin: 8px;
+  font-size: 10px;
+}
+.main-p{
+  margin: 6px;
+  font-size: 10px;
+}
