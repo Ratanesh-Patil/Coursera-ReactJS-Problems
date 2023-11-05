@@ -1,0 +1,60 @@
+.body
+ {   
+    width: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.invoice {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.invoice-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.invoice-header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.invoice-header .invoice-number {
+    text-align: right;
+}
+
+.invoice-details {
+    margin-bottom: 20px;
+}
+
+.invoice-details p {
+    margin: 0;
+}
+
+.invoice-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.invoice-table th,
+.invoice-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.invoice-total {
+    text-align: right;
+}
+
+.invoice-footer {
+    margin-top: 20px;
+    text-align: center;
+}
